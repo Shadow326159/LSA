@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="labelText" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="840.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dman.Controller">
+    <children>
+        <Button fx:id="Calculated_Button" layoutX="275.0" layoutY="374.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="290.0" style="-fx-background-color: #f39c63;" text="Найти близкие предложения" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <TextField fx:id="FileDirectory_Field" layoutX="35.0" layoutY="231.0" prefHeight="25.0" prefWidth="770.0" promptText="Укажите путь к файлу с текстами" />
+        <TextField fx:id="KeyWords_Field" layoutX="35.0" layoutY="327.0" prefHeight="25.0" prefWidth="770.0" promptText="Запиши ключевые слова для поиска (через пробел)" />
+        <Button fx:id="Browser_Button" layoutX="783.0" layoutY="231.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="24.0" text="..." />
+        <TextArea fx:id="texts" layoutX="35.0" layoutY="14.0" prefHeight="200.0" prefWidth="770.0" />
+        <Button fx:id="Get_keywords_button" layoutX="275.0" layoutY="270.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="290.0" style="-fx-background-color: #f39c63;" text="Получить ключевые слова" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
